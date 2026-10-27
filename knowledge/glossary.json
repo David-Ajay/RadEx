@@ -1,0 +1,376 @@
+[
+  {
+    "id": "atelectasis",
+    "term": "Atelectasis",
+    "kind": "finding",
+    "keywords": [
+      "collapsed lung",
+      "partial collapse",
+      "not fully expanded",
+      "lung collapse area"
+    ],
+    "text": "Atelectasis means part of the lung is not fully expanded, so that area holds less air than normal. It can be small and harmless or larger, and it can happen for several reasons, for example after surgery or when an airway is partly blocked. Whether it matters depends on its size, its cause and how the person feels, which only a clinician can judge."
+  },
+  {
+    "id": "consolidation",
+    "term": "Consolidation",
+    "kind": "finding",
+    "keywords": [
+      "solid lung",
+      "filled with fluid",
+      "pus",
+      "airspace"
+    ],
+    "text": "Consolidation means an area of lung looks solid on the X-ray because the tiny air spaces are filled with fluid, pus or other material instead of air. It describes how the area looks, not one single disease. Infections such as pneumonia are a common cause, but there are others, so a doctor uses symptoms and other tests to find the cause."
+  },
+  {
+    "id": "edema",
+    "term": "Pulmonary edema",
+    "kind": "finding",
+    "keywords": [
+      "edema",
+      "fluid in lungs",
+      "water in lungs",
+      "fluid build-up",
+      "wet lungs"
+    ],
+    "text": "Pulmonary edema means extra fluid in the lungs' air spaces or tissue, which can make breathing harder. It has several possible causes, including heart and lung conditions. An X-ray is only one clue, and a doctor needs to look at the whole picture."
+  },
+  {
+    "id": "pneumonia",
+    "term": "Pneumonia",
+    "kind": "finding",
+    "keywords": [
+      "lung infection",
+      "infection",
+      "chest infection"
+    ],
+    "text": "Pneumonia is an infection of the lung tissue. On an X-ray it often shows up as a cloudy area, but similar-looking areas can have other causes, and an X-ray alone cannot confirm an infection. Doctors combine the image with symptoms, an examination and sometimes other tests."
+  },
+  {
+    "id": "pneumothorax",
+    "term": "Pneumothorax",
+    "kind": "finding",
+    "keywords": [
+      "collapsed lung",
+      "air leak",
+      "air around lung",
+      "punctured lung"
+    ],
+    "text": "A pneumothorax is air trapped between the lung and the chest wall, which can make the lung partly collapse. Sizes range from very small to large. It needs to be confirmed by a doctor, not judged from an AI flag. If someone has sudden chest pain or trouble breathing, they should seek urgent medical care."
+  },
+  {
+    "id": "pleural_effusion",
+    "term": "Pleural effusion",
+    "kind": "finding",
+    "keywords": [
+      "effusion",
+      "fluid around lung",
+      "water around lung"
+    ],
+    "text": "A pleural effusion is fluid that has collected in the space between the lung and the chest wall. It has many possible causes, from heart or lung conditions to infection or inflammation. The amount of fluid and its cause decide whether it matters."
+  },
+  {
+    "id": "lung_opacity",
+    "term": "Lung opacity",
+    "kind": "finding",
+    "keywords": [
+      "opacity",
+      "hazy area",
+      "white area",
+      "cloudy area"
+    ],
+    "text": "A lung opacity is a hazy or whiter area on the lung in the X-ray. It is a general description, not a diagnosis, because many different things can cause it, such as fluid, infection or scarring."
+  },
+  {
+    "id": "lung_lesion",
+    "term": "Lung lesion",
+    "kind": "finding",
+    "keywords": [
+      "lesion",
+      "abnormal spot",
+      "abnormal area"
+    ],
+    "text": "A lung lesion is a deliberately broad word for any abnormal spot or area in the lung. It does not say what the area is. Doctors usually need more information, sometimes further imaging, to find out."
+  },
+  {
+    "id": "infiltration",
+    "term": "Pulmonary infiltrate",
+    "kind": "finding",
+    "keywords": [
+      "infiltration",
+      "infiltrate",
+      "hazy lung"
+    ],
+    "text": "Infiltrate is an older, general term for a hazy area in the lung that suggests something denser than air in the lung tissue. It can be linked to infection, inflammation, fluid or other causes. Because the term is vague, it is one of the hardest findings for both people and software to judge reliably."
+  },
+  {
+    "id": "mass",
+    "term": "Pulmonary mass",
+    "kind": "finding",
+    "keywords": [
+      "mass",
+      "lump",
+      "growth",
+      "tumor",
+      "tumour"
+    ],
+    "text": "A pulmonary mass is a larger rounded area of abnormal tissue in the lung, usually described as bigger than about 3 centimetres. It can have many causes, some harmless and some serious, and only further tests can tell them apart. An AI flag on its own is not a diagnosis."
+  },
+  {
+    "id": "nodule",
+    "term": "Pulmonary nodule",
+    "kind": "finding",
+    "keywords": [
+      "nodule",
+      "small spot",
+      "spot on lung",
+      "lung spot"
+    ],
+    "text": "A pulmonary nodule is a small rounded spot in the lung, usually smaller than about 3 centimetres. Nodules are common, and many turn out to be harmless, but doctors sometimes arrange follow-up imaging to be sure."
+  },
+  {
+    "id": "emphysema",
+    "term": "Emphysema",
+    "kind": "finding",
+    "keywords": [
+      "copd",
+      "damaged air sacs",
+      "smoker's lung"
+    ],
+    "text": "Emphysema is long-term damage to the tiny air sacs of the lungs, often linked to smoking. Its signs on an X-ray can be subtle, and a doctor usually relies on symptoms and breathing tests as well."
+  },
+  {
+    "id": "fibrosis",
+    "term": "Pulmonary fibrosis",
+    "kind": "finding",
+    "keywords": [
+      "fibrosis",
+      "scarring",
+      "scar tissue",
+      "stiff lungs"
+    ],
+    "text": "Pulmonary fibrosis means scarring of the lung tissue, which makes that tissue stiffer. It can have many causes, and some scarring is old and stable. A doctor decides what it means using the person's history and other tests."
+  },
+  {
+    "id": "pleural_thickening",
+    "term": "Pleural thickening",
+    "kind": "finding",
+    "keywords": [
+      "pleura thickening",
+      "thick lining",
+      "lining of lung"
+    ],
+    "text": "Pleural thickening means the thin lining around the lung looks thicker than usual. It can be left over from past inflammation or infection, or linked to other causes, and it is often long-standing. A doctor interprets it together with the person's history."
+  },
+  {
+    "id": "cardiomegaly",
+    "term": "Cardiomegaly (enlarged heart)",
+    "kind": "finding",
+    "keywords": [
+      "enlarged heart",
+      "big heart",
+      "heart size",
+      "heart looks large"
+    ],
+    "text": "Cardiomegaly means the heart looks larger than expected on the X-ray. How big the heart appears can depend on how the picture was taken, for example how deep the breath was or whether the person was lying down, so doctors interpret it together with other information."
+  },
+  {
+    "id": "enlarged_cardiomediastinum",
+    "term": "Enlarged cardiomediastinal silhouette",
+    "kind": "finding",
+    "keywords": [
+      "mediastinum",
+      "widened mediastinum",
+      "central chest"
+    ],
+    "text": "The cardiomediastinal silhouette is the central outline of the chest holding the heart and the large blood vessels. Calling it enlarged means that area looks wider than expected. Several things can cause this, including how the X-ray was taken, so a doctor needs to look at it directly."
+  },
+  {
+    "id": "tier_possible",
+    "term": "What 'possible' means in this report",
+    "kind": "concept",
+    "keywords": [
+      "possible",
+      "what does possible mean",
+      "low confidence",
+      "flagged",
+      "why flagged"
+    ],
+    "text": "'Possible' means the software's score for that finding passed its detection threshold but not the stricter one. It is a low-confidence flag meant to catch things worth a second look, so false alarms are common. It does not mean the condition is present."
+  },
+  {
+    "id": "tier_likely",
+    "term": "What 'likely' means in this report",
+    "kind": "concept",
+    "keywords": [
+      "likely",
+      "what does likely mean",
+      "high confidence"
+    ],
+    "text": "'Likely' means the software's score for that finding passed a stricter threshold, so it is more confident than for 'possible'. It is still an automated estimate and not a diagnosis, and a radiologist needs to confirm it."
+  },
+  {
+    "id": "not_flagged",
+    "term": "What 'not flagged' means",
+    "kind": "concept",
+    "keywords": [
+      "not flagged",
+      "normal",
+      "nothing found",
+      "clear",
+      "not detected"
+    ],
+    "text": "'Not flagged' means the software did not find enough signs of that condition to pass its threshold. It does not prove the condition is absent, because the software can miss things."
+  },
+  {
+    "id": "probability",
+    "term": "The percentages and 'model confidence' table",
+    "kind": "concept",
+    "keywords": [
+      "probability",
+      "percentage",
+      "percent",
+      "how sure",
+      "how confident",
+      "confidence",
+      "calibrated"
+    ],
+    "text": "The table shows the software's calibrated probability for each flagged finding. Calibrated means the numbers were adjusted on test data so they roughly match how often that finding really occurs. Rare findings can be flagged at low percentages, so a small number does not mean the flag is unimportant, and a larger number does not mean certainty."
+  },
+  {
+    "id": "reliability",
+    "term": "Model reliability",
+    "kind": "concept",
+    "keywords": [
+      "reliable",
+      "reliability",
+      "accuracy",
+      "accurate",
+      "trust",
+      "caution",
+      "less reliable"
+    ],
+    "text": "Reliability describes how well the software performed for that finding when it was tested on thousands of X-rays. Some findings, such as the vaguer ones, are harder, and the report adds a caution for those. Even the best-performing findings are not perfect."
+  },
+  {
+    "id": "false_alarm",
+    "term": "False alarms",
+    "kind": "concept",
+    "keywords": [
+      "false positive",
+      "false alarm",
+      "wrong",
+      "mistake",
+      "error",
+      "incorrect"
+    ],
+    "text": "A false alarm is when the software flags something that is not really there. To avoid missing real problems, this system is tuned to flag generously, which means false alarms are common. That is why every flagged finding needs to be checked by a person."
+  },
+  {
+    "id": "ai_limits",
+    "term": "Limits of this AI report",
+    "kind": "concept",
+    "keywords": [
+      "ai",
+      "limitations",
+      "diagnosis",
+      "accurate",
+      "can i trust",
+      "clinical",
+      "medical device",
+      "can i trust",
+      "is this correct",
+      "is this right",
+      "how good is this"
+    ],
+    "text": "This report comes from an experimental research system. It has not been clinically validated, is not a medical device and cannot make a diagnosis. It looks at a single image and does not know the person's symptoms, history or other tests."
+  },
+  {
+    "id": "radiologist",
+    "term": "Radiologist",
+    "kind": "concept",
+    "keywords": [
+      "radiologist",
+      "doctor",
+      "who reads x-ray"
+    ],
+    "text": "A radiologist is a doctor trained to interpret medical images such as X-rays. They look at the image together with the person's medical information and decide what the findings mean."
+  },
+  {
+    "id": "chest_xray",
+    "term": "Chest X-ray",
+    "kind": "concept",
+    "keywords": [
+      "x-ray",
+      "xray",
+      "frontal",
+      "radiograph",
+      "picture of chest"
+    ],
+    "text": "A chest X-ray is a quick image that shows the lungs, heart, airways and the bones of the chest. A frontal view is taken from the front or back. It shows many things, but it cannot show everything, so doctors sometimes need other tests."
+  },
+  {
+    "id": "lungs_pleura",
+    "term": "Lungs and pleura",
+    "kind": "concept",
+    "keywords": [
+      "lungs",
+      "pleura",
+      "pleural",
+      "lung lining"
+    ],
+    "text": "The lungs are the organs used for breathing. The pleura is the thin lining around each lung and the space between the lung and the chest wall. In this report, pleural findings such as fluid or trapped air are grouped with the lungs."
+  },
+  {
+    "id": "heart_mediastinum",
+    "term": "Heart and mediastinum",
+    "kind": "concept",
+    "keywords": [
+      "heart",
+      "mediastinum",
+      "cardiac"
+    ],
+    "text": "The heart sits in the middle of the chest. The mediastinum is the central area that holds the heart, the large blood vessels and the windpipe. On a plain X-ray, doctors mostly judge the heart's size and outline."
+  },
+  {
+    "id": "next_steps",
+    "term": "What to do with this report",
+    "kind": "concept",
+    "keywords": [
+      "what should i do",
+      "next steps",
+      "what now",
+      "should i worry",
+      "worried",
+      "treatment",
+      "medicine",
+      "see a doctor",
+      "follow up",
+      "serious",
+      "dangerous",
+      "scary",
+      "bad",
+      "cancer",
+      "die",
+      "dying",
+      "is this bad",
+      "what does this mean for me"
+    ],
+    "text": "This chatbot cannot give medical advice or treatment recommendations. The best next step is to share the report and the original X-ray with a doctor or radiologist, who can say what the findings mean for the person's situation."
+  },
+  {
+    "id": "emergency",
+    "term": "When to seek urgent help",
+    "kind": "concept",
+    "keywords": [
+      "emergency",
+      "urgent",
+      "chest pain",
+      "can't breathe",
+      "short of breath",
+      "severe"
+    ],
+    "text": "Sudden chest pain, severe trouble breathing, coughing up blood, fainting or bluish lips need urgent medical care straight away. Do not wait for a report or a chatbot. Call your local emergency number or go to the nearest emergency department."
+  }
+]

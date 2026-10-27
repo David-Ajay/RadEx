@@ -1,0 +1,27 @@
+# Phase 1: lungs + heart
+paths:
+  raw_nih: data/raw/nih
+  raw_chexpert: data/raw/chexpert
+  master_csv: data/labels/master.csv
+  processed_images: data/processed/images
+
+kaggle:
+  # Verify these slugs on kaggle.com before downloading (datasets get renamed/removed)
+  nih: nih-chest-xrays/data              # ChestX-ray14, ~42 GB
+  chexpert: ashery/chexpert              # CheXpert-v1.0-small (320px), ~11 GB
+
+preprocess:
+  image_size: 256        # stored size; we random-crop to 224 when training
+  jpeg_quality: 95
+  workers: 6
+
+split:
+  seed: 42
+  val_fraction: 0.10     # patient-level
+
+# CheXpert marks some labels "uncertain" (-1). Policy per label:
+#   "ignore" -> NaN (masked out of the loss), 1 -> positive, 0 -> negative
+uncertain:
+  default: ignore
+  Atelectasis: 1
+  Edema: 1

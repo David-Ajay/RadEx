@@ -1,0 +1,18 @@
+model:
+  backbone: densenet121      # densenet121 | resnet50 | resnet18 (resnet18 = fast debugging only)
+  pretrained: true           # downloads ImageNet weights (~30 MB) on first run
+  dropout: 0.2
+
+data:
+  image_size: 224
+  num_workers: 4             # lower to 2 if the Mac gets sluggish
+
+train:
+  epochs: 5
+  batch_size: 32
+  lr: 0.0001
+  weight_decay: 0.00001
+  organ_loss_weight: 1.0
+  disease_loss_weight: 1.0
+  pos_weight_max: 20.0       # cap on class-imbalance weighting
+  seed: 42

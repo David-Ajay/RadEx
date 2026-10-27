@@ -1,0 +1,22 @@
+# Same recipe as train.yaml, but the DenseNet121 starts from chest-X-ray weights (trained on CheXpert by the
+# TorchXRayVision project) instead of ImageNet. CheXpert never contained NIH images, so the NIH test numbers
+# stay honest. Get the weights once with:  python scripts/11_get_xray_weights.py
+model:
+  backbone: densenet121_xray
+  pretrained: true
+  init_path: checkpoints/pretrained/densenet121-res224-chex_features.pt
+  dropout: 0.2
+
+data:
+  image_size: 224
+  num_workers: 4
+
+train:
+  epochs: 5                  # same as the first run so the comparison is fair
+  batch_size: 32
+  lr: 0.0001
+  weight_decay: 0.00001
+  organ_loss_weight: 1.0
+  disease_loss_weight: 1.0
+  pos_weight_max: 20.0
+  seed: 42

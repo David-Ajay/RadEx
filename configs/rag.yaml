@@ -1,0 +1,26 @@
+# Which engine writes the chatbot's answers?
+#   gemini     : Google Gemini API (free key from Google AI Studio). Understands normal English. Needs internet.
+#                Put the key in the file ".env" (see .env.example).  Free-tier content may be used by Google to
+#                improve its products, so don't type names or personal details.
+#   extractive : no install and no key. Answers are assembled from the report and glossary text. Works offline.
+#   ollama     : local LLM (install Ollama, then:  ollama pull llama3.2).  Free, private, slower.
+#   anthropic  : Claude API. Needs the ANTHROPIC_API_KEY environment variable.
+provider: gemini                   # if no key is found the app falls back to "extractive" and tells you
+
+gemini:
+  model: gemini-flash-latest       # an alias for Google's current fast model
+  fallback_models: [gemini-2.5-flash, gemini-3.7-flash]   # tried in order if a model name is not found
+  max_tokens: 1500
+ollama:
+  host: http://localhost:11434
+  model: llama3.2
+anthropic:
+  model: claude-haiku-5-5
+
+retrieval:
+  top_k: 4
+  min_score: 0.06
+chat:
+  history_turns: 6
+  max_tokens: 500
+  temperature: 0.2
