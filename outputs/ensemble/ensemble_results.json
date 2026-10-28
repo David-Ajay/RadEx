@@ -1,0 +1,42 @@
+{
+  "tta": true,
+  "ranked": [
+    {
+      "models": [
+        "pleura",
+        "phase1"
+      ],
+      "val": 0.8298792951314078,
+      "test": 0.8040474422387742
+    },
+    {
+      "models": [
+        "pleura"
+      ],
+      "val": 0.8269685291209348,
+      "test": 0.800580238780342
+    },
+    {
+      "models": [
+        "phase1"
+      ],
+      "val": 0.8222870050817974,
+      "test": 0.7963665254463177
+    }
+  ],
+  "chosen_per_finding_test_auroc": {
+    "Atelectasis": 0.7743692342461325,
+    "Consolidation": 0.7478979735077995,
+    "Edema": 0.8451642425125462,
+    "Pneumonia": 0.7172244366086465,
+    "Infiltration": 0.6994641520536115,
+    "Mass": 0.8232617120481586,
+    "Nodule": 0.7566261453665052,
+    "Emphysema": 0.8948176295532868,
+    "Fibrosis": 0.8370557974460565,
+    "Pleural Effusion": 0.8259493587172105,
+    "Pneumothorax": 0.863022291444036,
+    "Pleural Thickening": 0.7719670699364028,
+    "Cardiomegaly": 0.895796705663673
+  }
+}

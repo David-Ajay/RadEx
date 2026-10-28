@@ -1,0 +1,94 @@
+{
+  "per_finding": [
+    {
+      "label": "Atelectasis",
+      "n": 180,
+      "pointing": 0.25,
+      "chance": 0.048,
+      "mask_hit": 0.75,
+      "recall": 0.6,
+      "precision": 0.156,
+      "iou": 0.139,
+      "shaded_pct": 16.786
+    },
+    {
+      "label": "Cardiomegaly",
+      "n": 139,
+      "pointing": 0.978,
+      "chance": 0.265,
+      "mask_hit": 0.986,
+      "recall": 0.568,
+      "precision": 0.87,
+      "iou": 0.521,
+      "shaded_pct": 16.64
+    },
+    {
+      "label": "Infiltration",
+      "n": 123,
+      "pointing": 0.398,
+      "chance": 0.144,
+      "mask_hit": 0.829,
+      "recall": 0.513,
+      "precision": 0.343,
+      "iou": 0.243,
+      "shaded_pct": 19.103
+    },
+    {
+      "label": "Mass",
+      "n": 84,
+      "pointing": 0.274,
+      "chance": 0.064,
+      "mask_hit": 0.869,
+      "recall": 0.709,
+      "precision": 0.22,
+      "iou": 0.179,
+      "shaded_pct": 16.107
+    },
+    {
+      "label": "Nodule",
+      "n": 78,
+      "pointing": 0.026,
+      "chance": 0.008,
+      "mask_hit": 0.731,
+      "recall": 0.617,
+      "precision": 0.031,
+      "iou": 0.031,
+      "shaded_pct": 16.585
+    },
+    {
+      "label": "Pleural Effusion",
+      "n": 153,
+      "pointing": 0.373,
+      "chance": 0.098,
+      "mask_hit": 0.869,
+      "recall": 0.585,
+      "precision": 0.276,
+      "iou": 0.211,
+      "shaded_pct": 18.002
+    },
+    {
+      "label": "Pneumonia",
+      "n": 94,
+      "pointing": 0.394,
+      "chance": 0.15,
+      "mask_hit": 0.543,
+      "recall": 0.264,
+      "precision": 0.312,
+      "iou": 0.16,
+      "shaded_pct": 8.26
+    },
+    {
+      "label": "Pneumothorax",
+      "n": 95,
+      "pointing": 0.147,
+      "chance": 0.07,
+      "mask_hit": 0.684,
+      "recall": 0.297,
+      "precision": 0.184,
+      "iou": 0.12,
+      "shaded_pct": 15.563
+    }
+  ],
+  "overall_pointing": 0.38372093023255816,
+  "overall_chance": 0.11087668225912616
+}
