@@ -1,2 +1,80 @@
-data/
+# Dataset files (too large for GitHub)
+data/raw/
+data/processed/
+data/labels/*.csv
+data/*.db
+
+# Keep directory structure but ignore data
+!data/.gitkeep
+!data/labels/.gitkeep
+!data/processed/.gitkeep
+!data/raw/.gitkeep
+
+# Model checkpoints (too large)
+checkpoints/*/best.pt
+checkpoints/*/last.pt
+checkpoints/pretrained/*.pt
+
+# Keep checkpoint configs
+!checkpoints/*/postprocess.json
+
+# Training outputs
+outputs/*/history.json
+outputs/*/test_metrics.json
+outputs/*/test_metrics.csv
+outputs/*/*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Environment variables (may contain secrets)
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Logs
+*.log
+
+# Cache
+.cache/
+.pytest_cache/
